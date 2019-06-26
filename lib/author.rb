@@ -2,6 +2,7 @@ require 'pry'
 class Author 
   attr_accessor :name, :posts
   @@post_count = 0
+  @@all = []
   def initialize(name)
     @name = name
     @posts = []
