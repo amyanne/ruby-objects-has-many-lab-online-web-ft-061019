@@ -8,7 +8,6 @@ class Author
   end
   
   def add_post(post)
-    binding.pry
     @posts << post
     post.author = self 
     
